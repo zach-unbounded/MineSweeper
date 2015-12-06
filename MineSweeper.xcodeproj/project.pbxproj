@@ -255,6 +255,7 @@
 				TargetAttributes = {
 					E644D9951C0DCF0C008094E0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Q899T2QRE9;
 					};
 					E644D9A91C0DCF0C008094E0 = {
 						CreatedOnToolsVersion = 7.1;
@@ -471,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MineSweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Royal-Bank-Of-Schotland.MineSweeper";
@@ -482,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MineSweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Royal-Bank-Of-Schotland.MineSweeper";
