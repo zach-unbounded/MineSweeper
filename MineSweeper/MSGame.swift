@@ -9,6 +9,6 @@
 import Foundation
 
 class MSGame {
-    var grid : MSGrid
+    var grid : MSGrid = MSGrid()
 
 }

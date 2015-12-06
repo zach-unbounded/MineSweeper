@@ -16,7 +16,9 @@ class MSIntroViewController: UIViewController {
         super.viewDidLoad()
         
         // boot up sound engine
-        MSSoundSystem.sharedInstance.startBackgroundMusic(MSSettingModel.sharedInstance.musicVolume)
+        MSSoundSystem.sharedInstance.setVolumeForBackgroundMusic(MSSettingModel.sharedInstance.musicVolume)
+        MSSoundSystem.sharedInstance.playBackgroundMusic()
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,18 +10,25 @@ import Foundation
 import AVFoundation
 
 class MSSoundSystem {
-    
     static let sharedInstance = MSSoundSystem()
-    
     let backgroundMusicFileURL:NSURL = NSBundle.mainBundle().URLForResource("backgroundMusic", withExtension: "mp3")!
+    var soundSession:AVAudioSession = AVAudioSession.sharedInstance()
     var audioEngine: AVAudioEngine = AVAudioEngine()
-    var backgroundMusicFilePlayer: AVAudioPlayerNode = AVAudioPlayerNode()
+    var backgroundMusicFilePlayer: AVAudioPlayerNode
     
     init() {
-        // TODO : can we get some system audio engine that i can work with to intergrate into!
+        // init the sound session
+        do{
+            try soundSession.setCategory(AVAudioSessionCategoryAmbient)
+        }
+        catch {
+            NSLog("Problem setting up ambient categry")
+        }
+        backgroundMusicFilePlayer = AVAudioPlayerNode()
+        self.setupBackgroundMusic()
     }
     
-    func startBackgroundMusic(startVolume : Float) {
+    func setupBackgroundMusic() {
         var audioFile : AVAudioFile
         
         do {
@@ -40,8 +47,10 @@ class MSSoundSystem {
                 
                 do {
                     try audioEngine.start()
-                    backgroundMusicFilePlayer.volume = startVolume
-                    backgroundMusicFilePlayer.play()
+                    
+                    // setting volume to half. and pause the music until we are ready to play!
+                    backgroundMusicFilePlayer.volume = 0.5
+                    backgroundMusicFilePlayer.pause()
                     backgroundMusicFilePlayer.scheduleBuffer(audioFileBuffer, atTime: nil, options:.Loops, completionHandler: nil)
                 } catch {
                     print("Failed to start engine!");
@@ -59,5 +68,29 @@ class MSSoundSystem {
         backgroundMusicFilePlayer.volume = newVolume
     }
     
+    func stopBackgroundMusic() {
+        if backgroundMusicFilePlayer.playing {
+            backgroundMusicFilePlayer.stop()
+        }
+    }
+    
+    func switchBackgroundPause() {
+        if backgroundMusicFilePlayer.playing {
+            backgroundMusicFilePlayer.pause()
+        }
+        else {
+            backgroundMusicFilePlayer.play()
+        }
+    }
+    
+    func playBackgroundMusic() {
+        if !backgroundMusicFilePlayer.playing {
+            backgroundMusicFilePlayer.play()
+        }
+    }
+    
+    func shutdown() {
+        backgroundMusicFilePlayer.stop()
+    }
     
 }

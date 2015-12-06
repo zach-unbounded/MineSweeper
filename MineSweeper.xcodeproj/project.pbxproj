@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97DE18C91C14BA33005EF1C9 /* MSKeyboardAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE18C81C14BA33005EF1C9 /* MSKeyboardAccessoryView.swift */; };
 		E644D99A1C0DCF0C008094E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9991C0DCF0C008094E0 /* AppDelegate.swift */; };
 		E644D99C1C0DCF0C008094E0 /* MSIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D99B1C0DCF0C008094E0 /* MSIntroViewController.swift */; };
 		E644D99F1C0DCF0C008094E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E644D99D1C0DCF0C008094E0 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97DE18C81C14BA33005EF1C9 /* MSKeyboardAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSKeyboardAccessoryView.swift; sourceTree = "<group>"; };
 		E644D9961C0DCF0C008094E0 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E644D9991C0DCF0C008094E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E644D99B1C0DCF0C008094E0 /* MSIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSIntroViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				E644D9D11C0DD766008094E0 /* MSMineCell.swift */,
+				97DE18C81C14BA33005EF1C9 /* MSKeyboardAccessoryView.swift */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			files = (
 				E644D9CC1C0DD71A008094E0 /* MSSettingModel.swift in Sources */,
 				E644D9D01C0DD743008094E0 /* MSGrid.swift in Sources */,
+				97DE18C91C14BA33005EF1C9 /* MSKeyboardAccessoryView.swift in Sources */,
 				E644D9D41C0DD78D008094E0 /* MSGridCell.swift in Sources */,
 				E644D9CE1C0DD727008094E0 /* MSGame.swift in Sources */,
 				E644D99C1C0DCF0C008094E0 /* MSIntroViewController.swift in Sources */,
