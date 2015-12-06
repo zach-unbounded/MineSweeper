@@ -132,7 +132,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="2fM-30-pvm">
                                 <rect key="frame" x="0.0" y="88" width="600" height="393"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" text="Sound Settings:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxj-lu-oyt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" misplaced="YES" text="Sound Settings:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxj-lu-oyt">
                                         <rect key="frame" x="20" y="32" width="560" height="20.5"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
@@ -146,7 +146,7 @@
                                         <color key="textColor" red="0.31764705879999999" green="0.30588235289999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="oCI-2e-aJL">
+                                    <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="oCI-2e-aJL">
                                         <rect key="frame" x="79" y="80" width="503" height="31"/>
                                         <animations/>
                                         <color key="minimumTrackTintColor" red="0.20392156859999999" green="0.53333333329999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -161,7 +161,7 @@
                                         <color key="textColor" red="0.31764705879999999" green="0.30588235289999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lNX-6M-igL">
+                                    <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lNX-6M-igL">
                                         <rect key="frame" x="132" y="112" width="450" height="31"/>
                                         <animations/>
                                         <color key="minimumTrackTintColor" red="0.20392156859999999" green="0.53333333329999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -183,7 +183,7 @@
                                         <color key="textColor" red="0.31764705879999999" green="0.30588235289999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="4 x 4" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vWQ-Wd-aFg">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="4 x 4" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vWQ-Wd-aFg">
                                         <rect key="frame" x="105" y="247" width="475" height="30"/>
                                         <animations/>
                                         <color key="textColor" red="0.31764705879999999" green="0.30588235289999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -200,7 +200,7 @@
                                         <color key="textColor" red="0.31764705879999999" green="0.30588235289999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="plY-bc-izP">
+                                    <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="plY-bc-izP">
                                         <rect key="frame" x="143" y="288" width="439" height="31"/>
                                         <animations/>
                                         <color key="minimumTrackTintColor" red="0.20392156859999999" green="0.53333333329999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -208,21 +208,12 @@
                                             <action selector="numberOfMinesChanged:" destination="k2k-H2-tqE" eventType="valueChanged" id="cW8-tl-5zQ"/>
                                         </connections>
                                     </slider>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Qo-kb-Vzy">
-                                        <rect key="frame" x="0.0" y="281" width="600" height="1"/>
-                                        <animations/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1" id="yoL-b3-auR"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                                 <animations/>
                                 <constraints>
                                     <constraint firstItem="674-zk-gYQ" firstAttribute="leading" secondItem="2fM-30-pvm" secondAttribute="leading" constant="20" id="0jn-BN-DCr"/>
                                     <constraint firstItem="Wxj-lu-oyt" firstAttribute="top" secondItem="2fM-30-pvm" secondAttribute="top" constant="32" id="18u-bT-83A"/>
                                     <constraint firstItem="plY-bc-izP" firstAttribute="centerY" secondItem="sIV-SP-qu9" secondAttribute="centerY" id="1PH-Qu-ILi"/>
-                                    <constraint firstItem="5Qo-kb-Vzy" firstAttribute="leading" secondItem="2fM-30-pvm" secondAttribute="leading" id="31O-an-ee3"/>
                                     <constraint firstItem="lNX-6M-igL" firstAttribute="centerY" secondItem="UpP-Nz-TDJ" secondAttribute="centerY" id="3Ao-tO-eLd"/>
                                     <constraint firstItem="oCI-2e-aJL" firstAttribute="centerY" secondItem="k1c-Fj-qN9" secondAttribute="centerY" id="5fV-Cs-2Hc"/>
                                     <constraint firstItem="vWQ-Wd-aFg" firstAttribute="leading" secondItem="674-zk-gYQ" secondAttribute="trailing" constant="8" id="9GW-bu-2kK"/>
@@ -231,11 +222,9 @@
                                     <constraint firstAttribute="trailing" secondItem="oCI-2e-aJL" secondAttribute="trailing" constant="20" id="QMR-hb-Gc2"/>
                                     <constraint firstItem="k1c-Fj-qN9" firstAttribute="top" secondItem="Wxj-lu-oyt" secondAttribute="bottom" constant="32" id="SYW-ID-CgU"/>
                                     <constraint firstAttribute="trailing" secondItem="lNX-6M-igL" secondAttribute="trailing" constant="20" id="Upv-IJ-R5r"/>
-                                    <constraint firstItem="5Qo-kb-Vzy" firstAttribute="width" secondItem="2fM-30-pvm" secondAttribute="width" id="Vgg-yr-2um"/>
                                     <constraint firstItem="lNX-6M-igL" firstAttribute="leading" secondItem="UpP-Nz-TDJ" secondAttribute="trailing" constant="8" id="WAy-er-NUJ"/>
                                     <constraint firstItem="UpP-Nz-TDJ" firstAttribute="top" secondItem="k1c-Fj-qN9" secondAttribute="bottom" constant="11" id="WyJ-PP-Tc8"/>
                                     <constraint firstItem="sIV-SP-qu9" firstAttribute="top" secondItem="674-zk-gYQ" secondAttribute="bottom" constant="19.5" id="Y3T-dE-Fvq"/>
-                                    <constraint firstItem="5Qo-kb-Vzy" firstAttribute="top" secondItem="vWQ-Wd-aFg" secondAttribute="bottom" constant="4" id="YK6-oF-3wy"/>
                                     <constraint firstItem="oCI-2e-aJL" firstAttribute="leading" secondItem="k1c-Fj-qN9" secondAttribute="trailing" constant="16" id="cAz-QS-mSs"/>
                                     <constraint firstAttribute="trailing" secondItem="vWQ-Wd-aFg" secondAttribute="trailing" constant="20" id="dva-sh-SAx"/>
                                     <constraint firstItem="ULc-a3-xIm" firstAttribute="leading" secondItem="2fM-30-pvm" secondAttribute="leading" constant="20" id="hal-KP-gUF"/>
@@ -246,7 +235,6 @@
                                     <constraint firstAttribute="bottom" secondItem="sIV-SP-qu9" secondAttribute="bottom" constant="20" id="s6R-5q-xmd"/>
                                     <constraint firstItem="UpP-Nz-TDJ" firstAttribute="leading" secondItem="2fM-30-pvm" secondAttribute="leading" constant="20" id="sQj-ix-xVH"/>
                                     <constraint firstItem="plY-bc-izP" firstAttribute="leading" secondItem="sIV-SP-qu9" secondAttribute="trailing" constant="8" id="v7H-uG-Pl9"/>
-                                    <constraint firstAttribute="trailing" secondItem="5Qo-kb-Vzy" secondAttribute="trailing" id="vug-Vb-ziR"/>
                                     <constraint firstItem="ULc-a3-xIm" firstAttribute="top" secondItem="UpP-Nz-TDJ" secondAttribute="bottom" constant="64" id="xWl-He-ELD"/>
                                     <constraint firstAttribute="trailing" secondItem="Wxj-lu-oyt" secondAttribute="trailing" constant="20" id="zLx-EJ-JSC"/>
                                 </constraints>
