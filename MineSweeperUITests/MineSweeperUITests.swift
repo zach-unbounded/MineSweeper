@@ -3,7 +3,7 @@
 //  MineSweeperUITests
 //
 //  Created by Zachary Burgess on 01/12/2015.
-//  Copyright © 2015 RBS. All rights reserved.
+//  Copyright © 2015 V.Rei Ltd. All rights reserved.
 //
 
 import XCTest

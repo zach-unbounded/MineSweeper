@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E644D99A1C0DCF0C008094E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9991C0DCF0C008094E0 /* AppDelegate.swift */; };
-		E644D99C1C0DCF0C008094E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D99B1C0DCF0C008094E0 /* ViewController.swift */; };
+		E644D99C1C0DCF0C008094E0 /* MSIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D99B1C0DCF0C008094E0 /* MSIntroViewController.swift */; };
 		E644D99F1C0DCF0C008094E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E644D99D1C0DCF0C008094E0 /* Main.storyboard */; };
 		E644D9A11C0DCF0C008094E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E644D9A01C0DCF0C008094E0 /* Assets.xcassets */; };
 		E644D9A41C0DCF0C008094E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E644D9A21C0DCF0C008094E0 /* LaunchScreen.storyboard */; };
 		E644D9AF1C0DCF0C008094E0 /* MineSweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9AE1C0DCF0C008094E0 /* MineSweeperTests.swift */; };
 		E644D9BA1C0DCF0C008094E0 /* MineSweeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9B91C0DCF0C008094E0 /* MineSweeperUITests.swift */; };
+		E644D9C81C0DD0BE008094E0 /* MSGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9C71C0DD0BE008094E0 /* MSGameViewController.swift */; };
+		E644D9CA1C0DD174008094E0 /* MSSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9C91C0DD174008094E0 /* MSSettingsViewController.swift */; };
+		E644D9CC1C0DD71A008094E0 /* MSSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9CB1C0DD71A008094E0 /* MSSettingModel.swift */; };
+		E644D9CE1C0DD727008094E0 /* MSGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9CD1C0DD727008094E0 /* MSGame.swift */; };
+		E644D9D01C0DD743008094E0 /* MSGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9CF1C0DD743008094E0 /* MSGrid.swift */; };
+		E644D9D21C0DD766008094E0 /* MSMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9D11C0DD766008094E0 /* MSMineCell.swift */; };
+		E644D9D41C0DD78D008094E0 /* MSGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644D9D31C0DD78D008094E0 /* MSGridCell.swift */; };
+		E644DA131C0E2AAA008094E0 /* MSSoundSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644DA121C0E2AAA008094E0 /* MSSoundSystem.swift */; };
+		E644DA151C0E2DFF008094E0 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E644DA141C0E2DFF008094E0 /* backgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		E644D9961C0DCF0C008094E0 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E644D9991C0DCF0C008094E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E644D99B1C0DCF0C008094E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E644D99B1C0DCF0C008094E0 /* MSIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSIntroViewController.swift; sourceTree = "<group>"; };
 		E644D99E1C0DCF0C008094E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E644D9A01C0DCF0C008094E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E644D9A31C0DCF0C008094E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		E644D9B51C0DCF0C008094E0 /* MineSweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E644D9B91C0DCF0C008094E0 /* MineSweeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperUITests.swift; sourceTree = "<group>"; };
 		E644D9BB1C0DCF0C008094E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E644D9C71C0DD0BE008094E0 /* MSGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGameViewController.swift; sourceTree = "<group>"; };
+		E644D9C91C0DD174008094E0 /* MSSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSSettingsViewController.swift; sourceTree = "<group>"; };
+		E644D9CB1C0DD71A008094E0 /* MSSettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSSettingModel.swift; sourceTree = "<group>"; };
+		E644D9CD1C0DD727008094E0 /* MSGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGame.swift; sourceTree = "<group>"; };
+		E644D9CF1C0DD743008094E0 /* MSGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGrid.swift; sourceTree = "<group>"; };
+		E644D9D11C0DD766008094E0 /* MSMineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSMineCell.swift; sourceTree = "<group>"; };
+		E644D9D31C0DD78D008094E0 /* MSGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGridCell.swift; sourceTree = "<group>"; };
+		E644DA121C0E2AAA008094E0 /* MSSoundSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSSoundSystem.swift; sourceTree = "<group>"; };
+		E644DA141C0E2DFF008094E0 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				E644D9991C0DCF0C008094E0 /* AppDelegate.swift */,
-				E644D99B1C0DCF0C008094E0 /* ViewController.swift */,
+				E644DA111C0E2A8F008094E0 /* Systems */,
+				E644D9D51C0DD82B008094E0 /* View Controllers */,
+				E644D9D61C0DD839008094E0 /* Models */,
+				E644D9D71C0DD842008094E0 /* Custom Views */,
 				E644D99D1C0DCF0C008094E0 /* Main.storyboard */,
 				E644D9A01C0DCF0C008094E0 /* Assets.xcassets */,
+				E644DA141C0E2DFF008094E0 /* backgroundMusic.mp3 */,
 				E644D9A21C0DCF0C008094E0 /* LaunchScreen.storyboard */,
 				E644D9A51C0DCF0C008094E0 /* Info.plist */,
 			);
@@ -123,6 +145,43 @@
 				E644D9BB1C0DCF0C008094E0 /* Info.plist */,
 			);
 			path = MineSweeperUITests;
+			sourceTree = "<group>";
+		};
+		E644D9D51C0DD82B008094E0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E644D99B1C0DCF0C008094E0 /* MSIntroViewController.swift */,
+				E644D9C71C0DD0BE008094E0 /* MSGameViewController.swift */,
+				E644D9C91C0DD174008094E0 /* MSSettingsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E644D9D61C0DD839008094E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E644D9CB1C0DD71A008094E0 /* MSSettingModel.swift */,
+				E644D9CD1C0DD727008094E0 /* MSGame.swift */,
+				E644D9CF1C0DD743008094E0 /* MSGrid.swift */,
+				E644D9D31C0DD78D008094E0 /* MSGridCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E644D9D71C0DD842008094E0 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E644D9D11C0DD766008094E0 /* MSMineCell.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		E644DA111C0E2A8F008094E0 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				E644DA121C0E2AAA008094E0 /* MSSoundSystem.swift */,
+			);
+			name = Systems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +290,7 @@
 			files = (
 				E644D9A41C0DCF0C008094E0 /* LaunchScreen.storyboard in Resources */,
 				E644D9A11C0DCF0C008094E0 /* Assets.xcassets in Resources */,
+				E644DA151C0E2DFF008094E0 /* backgroundMusic.mp3 in Resources */,
 				E644D99F1C0DCF0C008094E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E644D99C1C0DCF0C008094E0 /* ViewController.swift in Sources */,
+				E644D9CC1C0DD71A008094E0 /* MSSettingModel.swift in Sources */,
+				E644D9D01C0DD743008094E0 /* MSGrid.swift in Sources */,
+				E644D9D41C0DD78D008094E0 /* MSGridCell.swift in Sources */,
+				E644D9CE1C0DD727008094E0 /* MSGame.swift in Sources */,
+				E644D99C1C0DCF0C008094E0 /* MSIntroViewController.swift in Sources */,
+				E644D9D21C0DD766008094E0 /* MSMineCell.swift in Sources */,
+				E644D9CA1C0DD174008094E0 /* MSSettingsViewController.swift in Sources */,
 				E644D99A1C0DCF0C008094E0 /* AppDelegate.swift in Sources */,
+				E644DA131C0E2AAA008094E0 /* MSSoundSystem.swift in Sources */,
+				E644D9C81C0DD0BE008094E0 /* MSGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +552,7 @@
 				E644D9C01C0DCF0C008094E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E644D9C11C0DCF0C008094E0 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +561,7 @@
 				E644D9C31C0DCF0C008094E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E644D9C41C0DCF0C008094E0 /* Build configuration list for PBXNativeTarget "MineSweeperUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +570,7 @@
 				E644D9C61C0DCF0C008094E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
