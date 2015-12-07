@@ -85,6 +85,9 @@ class MSSettingsViewController: UIViewController, KeyboardAccessoryViewDelegate,
         }
     }
     
+    @IBAction func close(sender: AnyObject) {
+        self.navigationController?.popToRootViewControllerAnimated(true)
+    }
     
     @IBAction func didSaveSettings(sender: AnyObject) {
         MSSettingModel.sharedInstance.musicVolume = musicVolumeSlider.value
